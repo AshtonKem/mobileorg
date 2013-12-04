@@ -229,7 +229,7 @@ enum {
                 if (IsIpad())
                     newLabel = [[[UITextField alloc] initWithFrame:CGRectMake(130,13,200,25)] autorelease];
                 else
-                    newLabel = [[[UITextField alloc] initWithFrame:CGRectMake(100,13,200,25)] autorelease];
+                    newLabel = [[[UITextField alloc] initWithFrame:CGRectMake(110,13,200,25)] autorelease];
                 [newLabel setAdjustsFontSizeToFitWidth:YES];
                 [newLabel setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleRightMargin];
                 [newLabel setAutocorrectionType:UITextAutocorrectionTypeNo];
@@ -286,9 +286,9 @@ enum {
                 if (cell == nil) {
                     cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:CellIdentifier] autorelease];
                     if (IsIpad())
-                        newLabel = [[[UITextField alloc] initWithFrame:CGRectMake(130,13,200,25)] autorelease];
+                        newLabel = [[[UITextField alloc] initWithFrame:CGRectMake(110,13,200,25)] autorelease];
                     else
-                        newLabel = [[[UITextField alloc] initWithFrame:CGRectMake(100,13,200,25)] autorelease];
+                        newLabel = [[[UITextField alloc] initWithFrame:CGRectMake(110,13,200,25)] autorelease];
                     [newLabel setAdjustsFontSizeToFitWidth:YES];
                     [newLabel setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleRightMargin];
                     [newLabel setAutocorrectionType:UITextAutocorrectionTypeNo];
