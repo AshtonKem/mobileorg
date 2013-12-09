@@ -228,7 +228,11 @@ __asm__(".weak_reference _OBJC_CLASS_$_NSURL");
     if (managedObjectModel != nil) {
         return managedObjectModel;
     }
-    managedObjectModel = [[NSManagedObjectModel mergedModelFromBundles:nil] retain];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"MobileOrg"
+                                                     ofType:@"momd"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    managedObjectModel = [[NSManagedObjectModel alloc]
+                          initWithContentsOfURL:url];
     return managedObjectModel;
 }
 
@@ -250,6 +254,11 @@ __asm__(".weak_reference _OBJC_CLASS_$_NSURL");
     NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
                              [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
                              [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+//    NSDictionary *options = @{
+//                              NSMigratePersistentStoresAutomaticallyOption : @YES,
+//                              NSInferMappingModelAutomaticallyOption : @YES
+//                              };
+
 
     if (![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeUrl options:options error:&error]) {
         // Handle error

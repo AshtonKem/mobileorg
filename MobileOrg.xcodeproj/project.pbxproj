@@ -16,7 +16,6 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28C3AD8A0F43EF2300507BA6 /* MobileOrg.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28C3AD890F43EF2300507BA6 /* MobileOrg.xcdatamodel */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		5A49BC7512DCFD5700662472 /* NodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49BC7412DCFD5700662472 /* NodeTest.m */; };
 		5A49BCBE12DD019300662472 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
@@ -61,7 +60,6 @@
 		793F8128107D38C900674D0A /* OutlineState.m in Sources */ = {isa = PBXBuildFile; fileRef = 793F8127107D38C900674D0A /* OutlineState.m */; };
 		7945F5A111A8066200731598 /* WebDavTransferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7945F5A011A8066200731598 /* WebDavTransferManager.m */; };
 		7945F61211A807FD00731598 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7945F61111A807FD00731598 /* Security.framework */; };
-		7958993E131D151F00446E31 /* MobileOrg.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28C3AD890F43EF2300507BA6 /* MobileOrg.xcdatamodel */; };
 		796A6A911083E67400D0DB25 /* DocumentView.js in Resources */ = {isa = PBXBuildFile; fileRef = 793F7F0B107C385900674D0A /* DocumentView.js */; };
 		796CB87C11ACA1D80040167E /* DropboxTransferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 796CB87B11ACA1D80040167E /* DropboxTransferManager.m */; };
 		7982F3621073F2FA00AEA6BC /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982F35B1073F2FA00AEA6BC /* Node.m */; };
@@ -147,6 +145,11 @@
 		83DC7E0217227FE600D59482 /* Icon-debug-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DC7E0117227FE600D59482 /* Icon-debug-72@2x.png */; };
 		83DC7E04172280FF00D59482 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DC7E03172280FF00D59482 /* Icon-72@2x.png */; };
 		83DC7E061722813700D59482 /* Icon-beta-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DC7E051722813700D59482 /* Icon-beta-72@2x.png */; };
+		AE45D708185151EE00B97A59 /* MobileOrg.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE45D705185151EE00B97A59 /* MobileOrg.xcdatamodeld */; };
+		AE45D709185151EE00B97A59 /* MobileOrg.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE45D705185151EE00B97A59 /* MobileOrg.xcdatamodeld */; };
+		AEAD5EEB185616F1008BAAD1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A3BBA216178BDD003D9320 /* QuartzCore.framework */; };
+		AEAD5EED18561728008BAAD1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAD5EEC18561728008BAAD1 /* SystemConfiguration.framework */; };
+		AEAD5EEE1856172D008BAAD1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7945F61111A807FD00731598 /* Security.framework */; };
 		FF11B7F116BD92B400135A52 /* DropBoxKeys.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FF11B7F016BD909800135A52 /* DropBoxKeys.xcconfig */; };
 /* End PBXBuildFile section */
 
@@ -160,7 +163,6 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28C3AD890F43EF2300507BA6 /* MobileOrg.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = MobileOrg.xcdatamodel; sourceTree = "<group>"; };
 		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MobileOrg_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileOrg_Prefix.pch; sourceTree = "<group>"; };
@@ -313,6 +315,9 @@
 		83DC7E03172280FF00D59482 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		83DC7E051722813700D59482 /* Icon-beta-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-beta-72@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MobileOrg-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MobileOrg-Info.plist"; sourceTree = "<group>"; };
+		AE45D706185151EE00B97A59 /* MobileOrg 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MobileOrg 2.xcdatamodel"; sourceTree = "<group>"; };
+		AE45D707185151EE00B97A59 /* MobileOrg.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobileOrg.xcdatamodel; sourceTree = "<group>"; };
+		AEAD5EEC18561728008BAAD1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FF11B7F016BD909800135A52 /* DropBoxKeys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DropBoxKeys.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -338,7 +343,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEAD5EEE1856172D008BAAD1 /* Security.framework in Frameworks */,
+				AEAD5EED18561728008BAAD1 /* SystemConfiguration.framework in Frameworks */,
 				5A9667A712DC84DB00CD02F5 /* CoreGraphics.framework in Frameworks */,
+				AEAD5EEB185616F1008BAAD1 /* QuartzCore.framework in Frameworks */,
 				5A9667A812DC84E400CD02F5 /* Foundation.framework in Frameworks */,
 				5A9667A912DC84EA00CD02F5 /* UIKit.framework in Frameworks */,
 				5A49BCBE12DD019300662472 /* CoreData.framework in Frameworks */,
@@ -410,7 +418,7 @@
 				79BA55681073A7DF00D67917 /* Images */,
 				79BA55691073A7DF00D67917 /* Javascript */,
 				7936FA90120DF4280062CF0E /* Entitlements.plist */,
-				28C3AD890F43EF2300507BA6 /* MobileOrg.xcdatamodel */,
+				AE45D705185151EE00B97A59 /* MobileOrg.xcdatamodeld */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MobileOrg-Info.plist */,
 				799774AA122C69260006EFC6 /* MobileOrg-Info-AdHoc.plist */,
@@ -424,6 +432,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEAD5EEC18561728008BAAD1 /* SystemConfiguration.framework */,
 				18A3BBA216178BDD003D9320 /* QuartzCore.framework */,
 				18F871901617865500EB16D5 /* DropboxSDK.framework */,
 				7945F61111A807FD00731598 /* Security.framework */,
@@ -869,12 +878,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				28C3AD8A0F43EF2300507BA6 /* MobileOrg.xcdatamodel in Sources */,
 				79BA55621073A6F800D67917 /* MobileOrgAppDelegate.m in Sources */,
 				7982F3621073F2FA00AEA6BC /* Node.m in Sources */,
 				7982F3631073F2FA00AEA6BC /* Note.m in Sources */,
 				7982F3641073F2FA00AEA6BC /* FileChecksum.m in Sources */,
 				7982F3651073F2FA00AEA6BC /* LocalEditAction.m in Sources */,
+				AE45D708185151EE00B97A59 /* MobileOrg.xcdatamodeld in Sources */,
 				7982F36A1073F33500AEA6BC /* OutlineViewController.m in Sources */,
 				7982F37D1073F6B700AEA6BC /* GlobalUtils.m in Sources */,
 				7982F3BA1073FBF800AEA6BC /* DataUtils.m in Sources */,
@@ -925,6 +934,7 @@
 				5A58415512DE5E5600FF403A /* GlobalUtils.m in Sources */,
 				5A58417412DE5FD100FF403A /* DataUtils.m in Sources */,
 				5A58417D12DE601D00FF403A /* StatusUtils.m in Sources */,
+				AE45D709185151EE00B97A59 /* MobileOrg.xcdatamodeld in Sources */,
 				5A58418412DE605500FF403A /* SyncManager.m in Sources */,
 				5A58418712DE606600FF403A /* WebDavTransferManager.m in Sources */,
 				5A58418A12DE607A00FF403A /* EditsFileParser.m in Sources */,
@@ -933,7 +943,6 @@
 				5A5841A712DE620D00FF403A /* TransferContext.m in Sources */,
 				5A5841AA12DE621B00FF403A /* OrgFileParser.m in Sources */,
 				5A5841B012DE623800FF403A /* EditEntity.m in Sources */,
-				7958993E131D151F00446E31 /* MobileOrg.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -983,6 +992,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APP_SECRET=@\\\"$(APP_SECRET)\\\"",
+					"APP_KEY=@\\\"$(APP_KEY)\\\"",
+				);
 				INFOPLIST_FILE = "UnitTests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
@@ -1009,6 +1022,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APP_SECRET=@\\\"$(APP_SECRET)\\\"",
+					"APP_KEY=@\\\"$(APP_KEY)\\\"",
+				);
 				INFOPLIST_FILE = "UnitTests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
@@ -1035,6 +1052,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APP_SECRET=@\\\"$(APP_SECRET)\\\"",
+					"APP_KEY=@\\\"$(APP_KEY)\\\"",
+				);
 				INFOPLIST_FILE = "UnitTests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
@@ -1187,6 +1208,20 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE45D705185151EE00B97A59 /* MobileOrg.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE45D706185151EE00B97A59 /* MobileOrg 2.xcdatamodel */,
+				AE45D707185151EE00B97A59 /* MobileOrg.xcdatamodel */,
+			);
+			currentVersion = AE45D706185151EE00B97A59 /* MobileOrg 2.xcdatamodel */;
+			path = MobileOrg.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
 }
